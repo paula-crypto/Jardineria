@@ -1,0 +1,139 @@
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f2f9f4;
+  color: #333;
+  line-height: 1.6;
+}
+.icono{
+    margin-left: 80%;
+}
+
+header {
+  background-color:  #3a7d44;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+header p {
+  margin: 10px 0 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.s1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+     display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    top: 50px;    
+    
+}
+
+
+.boton{   
+    display: inline-block;
+    color: #007004;
+    padding: 12px 15px;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #6f71009c;
+    transition: background 0.2s;
+    margin: 0 30px;
+
+}
+
+.boton:hover{
+    transform: scale(1.1);  
+    background-color: #fff;
+    color: #000;
+    
+}
+
+h1.s1{
+    margin: 0 10px;
+
+}
+
+.s1{
+    background-color: #007004;
+    width: 100%;
+}
+.titulos h1 {
+margin: 0;
+font-size: 1.8rem;
+color: white;
+}
+
+.titulos p {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  color: #f6fdf6
+}
+.consejos {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.consejo {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.consejo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+.consejo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.contenido {
+  padding: 20px;
+}
+.contenido h2 {
+  margin-top: 0;
+  color:#3a7d44;
+  font-size: 1.4rem;
+}
+.contenido p {
+  margin: 10px 0 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+footer{
+    text-align: center;
+    background-color: #007004;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}

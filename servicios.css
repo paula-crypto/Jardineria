@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+
+.icono{
+    margin-left: 80%;
+}
+
+header {
+  background-color:  #3a7d44;
+  color: white;
+  text-align: center;
+  padding: 30px 0   ;
+  padding-right: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+header p {
+  margin: 10px 0 0;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.s1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones{
+     display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    top: 50px; 
+    right: 50px;   
+    
+}
+
+
+.boton{   
+    display: inline-block;
+    color: #007004;
+    padding: 12px 15px;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    background: #6f71009c;
+    transition: background 0.2s;
+    margin: 0 30px;
+
+}
+
+.boton:hover{
+    transform: scale(1.1);  
+    background-color: #fff;
+    color: #000;
+    
+}
+
+h1.s1{
+    margin: 0 10px;
+
+}
+
+.s1{
+    background-color: #007004;
+    width: 100%;
+}
+
+.s2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+
+.s2 img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.s2 div{
+    width: auto;;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #cdcdcd;
+    margin: 10px;  
+    border-radius: 10px;  
+    box-shadow: 5px 5px 15px #cecece;
+}
+
+.s2 div:hover{
+    transform: scale(1.02);
+        box-shadow: 5px 5px 15px #6a6a6a;
+
+}
+
+.s2 h3{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+.s2 p{
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+.s2 li, ul{
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 70%;
+    margin: auto;
+    
+}
+
+section h2{
+    text-align: center;
+    font-size: 50px;
+    width: auto;
+}
+
+footer{
+    text-align: center;
+    background-color: #007004;
+    margin: auto;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
