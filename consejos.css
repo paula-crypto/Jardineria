@@ -137,3 +137,44 @@ footer{
     padding: 10px;
     margin-top: 20px;
 }
+
+/* Media Queries para Responsividad */
+
+/* Para tabletas y dispositivos medianos */
+@media (max-width: 1100px) {
+    .s1 {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+    
+    .icono {
+        margin: 0 auto 15px;
+    }
+
+    .botones {
+        position: static;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+}
+
+/* Para teléfonos móviles */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    header p {
+        font-size: 1rem;
+    }
+
+    .contenido h2 {
+        font-size: 1.2rem;
+    }
+
+    .contenido p {
+        font-size: 0.95rem;
+    }
+}

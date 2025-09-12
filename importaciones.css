@@ -139,3 +139,45 @@ footer{
     padding: 10px;
     margin-top: 20px;
 }
+
+/* Media Queries para Responsividad */
+
+/* Para tabletas y dispositivos medianos */
+@media (max-width: 768px) {
+    .s1 {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .icono {
+        margin: 0 auto 15px;
+    }
+    
+    .botones {
+        position: static;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    
+    .productos {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas para los productos */
+    }
+}
+
+/* Para teléfonos móviles */
+@media (max-width: 480px) {
+    .productos {
+        grid-template-columns: 1fr; /* Una columna para los productos */
+        padding: 20px;
+    }
+
+    .intro h2 {
+        font-size: 1.5rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+}

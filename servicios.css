@@ -146,3 +146,53 @@ footer{
     padding: 10px;
     margin-top: 20px;
 }
+
+/* Media Queries para Responsividad */
+
+/* Para tabletas y dispositivos medianos */
+@media (max-width: 768px) {
+    .s1 {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .icono {
+        margin: 0 auto 15px;
+    }
+    
+    .botones {
+        position: static;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .s2 {
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas en tabletas */
+    }
+
+    section h2 {
+        font-size: 40px;
+    }
+}
+
+/* Para teléfonos móviles */
+@media (max-width: 480px) {
+    .s2 {
+        grid-template-columns: 1fr; /* Una columna en móviles */
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    .s2 h3 {
+        font-size: 24px;
+    }
+
+    .s2 p, .s2 li {
+        font-size: 16px;
+        width: 90%;
+    }
+}

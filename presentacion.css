@@ -158,3 +158,73 @@ footer{
     flex-direction: column;
     justify-content: end;
 }
+
+/* Media Queries para Responsividad */
+
+/* Para tabletas y dispositivos medianos */
+@media (max-width: 768px) {
+    .s1 {
+        grid-template-columns: 1fr; /* Cambia el grid a una sola columna */
+        padding: 15px;
+    }
+
+    .icono {
+        margin: 0 auto 15px; /* Centra el ícono */
+    }
+
+    .titulos {
+        text-align: center;
+    }
+    
+    .botones {
+        position: static; /* Quita el posicionamiento relativo */
+        justify-content: center;
+        flex-wrap: wrap; /* Permite que los botones pasen a la siguiente línea si no caben */
+        gap: 10px; /* Añade espacio entre botones */
+        margin-top: 20px;
+    }
+
+    .clases {
+        grid-template-columns: 1fr; /* Una sola columna para las tarjetas */
+    }
+
+    .tarjetas1, .tarjetas2, .tarjetas3, .tarjetas4 {
+        width: 90%; /* Aumenta el ancho para aprovechar la pantalla */
+        height: auto; /* Altura automática */
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+}
+
+/* Para teléfonos móviles */
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .titulo h2 {
+        font-size: 18px;
+    }
+    
+    .boton {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+        margin: 5px;
+    }
+
+    .tarjetas1, .tarjetas2, .tarjetas3, .tarjetas4 {
+        font-size: 20px;
+    }
+
+    .tarjetas1 li, .tarjetas2 li {
+        margin: 10px 0;
+    }
+}
