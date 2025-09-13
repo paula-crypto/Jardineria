@@ -159,17 +159,14 @@ footer{
     justify-content: end;
 }
 
-/* Media Queries para Responsividad */
-
-/* Para tabletas y dispositivos medianos */
-@media (max-width: 768px) {
+@media(max-width:1750px){
     .s1 {
-        grid-template-columns: 1fr; /* Cambia el grid a una sola columna */
+        grid-template-columns: 1fr; 
         padding: 15px;
     }
 
     .icono {
-        margin: 0 auto 15px; /* Centra el ícono */
+        margin: 0 auto 15px; 
     }
 
     .titulos {
@@ -200,7 +197,7 @@ footer{
     }
 }
 
-/* Para teléfonos móviles */
+
 @media (max-width: 480px) {
     header h1 {
         font-size: 1.8rem;

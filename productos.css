@@ -46,6 +46,9 @@ header p {
     
 }
 
+.titulos{
+    margin:0 80px;
+}
 
 .boton{   
     display: inline-block;
@@ -156,6 +159,43 @@ footer{
     margin-top: 20px;
 }
 
+@media (max-width:1700px){
+    .s1 {
+        grid-template-columns: 1fr; 
+        padding: 15px;
+    }
+
+    .icono {
+        margin: 0 auto 15px; 
+    }
+
+    .titulos {
+        text-align: center;
+    }
+    
+    .botones {
+        position: static; /* Quita el posicionamiento relativo */
+        justify-content: center;
+        flex-wrap: wrap; /* Permite que los botones pasen a la siguiente línea si no caben */
+        gap: 10px; /* Añade espacio entre botones */
+        margin-top: 20px;
+    }
+
+    .clases {
+        grid-template-columns: 1fr; /* Una sola columna para las tarjetas */
+    }
+
+    .tarjetas1, .tarjetas2, .tarjetas3, .tarjetas4 {
+        width: 90%; /* Aumenta el ancho para aprovechar la pantalla */
+        height: auto; /* Altura automática */
+        padding: 20px;
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+}
 
 @media (max-width: 768px) {
     .productos {
@@ -243,5 +283,4 @@ footer{
         font-size: 0.85rem;
     }
 }
-
 
